@@ -33,9 +33,7 @@ hands down.
 
 Most feature detection assumes a 'supports' or 'does not support'
 binary. This is not the case with CSS3 3D Transforms - there is a
-'gradient of support'. Additionally, enabling 3D transforms causes the
-page to be re-rendered in an entirely different rendering engine which
-then causes other problems (more on this in a later post).
+'gradient of support'.
 
 CSS3 3D transform support can be separated into 4 levels:
 
