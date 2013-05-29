@@ -1,5 +1,4 @@
-Detect CSS3 3D Transform Support via User Agent sniffing
-========================================================
+## Detect CSS3 3D Transform Support via User Agent sniffing
 
 This script detects CSS3 3D Transform support across browsers
 
