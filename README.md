@@ -47,7 +47,3 @@ show lines across the page.
 IE or Firefox < v10
 
 This returns 'true' for 1 and 2 but false for 3 and 4.
-
-Note: This throws a false positive for Chrome 22 on MacBook Pro Retina displays (which does not support 3D Transforms). 
-This acceptable because Chrome's behavior provides a fallback. It will 
-parse and apply CSS3 3D Transform declarations - but just ignores the 3D parts.
