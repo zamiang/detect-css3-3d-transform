@@ -14,7 +14,7 @@
     match =
       /(chrome)[ \/]([\w.]+)/.exec(ua) or
       /(webkit)[ \/]([\w.]+)/.exec(ua) or
-      /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) or 
+      /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) or
       /(msie) ([\w.]+)/.exec(ua) or
       ua.indexOf("compatible") < 0 and /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) or
       []
@@ -57,6 +57,6 @@
     addNo3dTransform()
 
   # deactivate 3d transform for Safari on Windows
-  else if navigator.userAgent.search('Safari') > -1 and navigator.userAgent.search('Windows') > -1
+  else if navigator.userAgent.search('Safari') > -1 and navigator.userAgent.search('Windows') > -1 and navigator.userAgent.indexOf('Chrome') === -1
     addNo3dTransform()
 )()
