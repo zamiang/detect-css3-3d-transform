@@ -41,7 +41,7 @@
     return addNo3dTransform();
   } else if (IS_IPAD && IS_LT_IOS6) {
     return addNo3dTransform();
-  } else if (navigator.userAgent.search('Safari') > -1 && navigator.userAgent.search('Windows') > -1) {
+  } else if (navigator.userAgent.search('Safari') > -1 && navigator.userAgent.search('Windows') > -1 && navigator.userAgent.indexOf('Chrome') === -1) {
     return addNo3dTransform();
   }
 })();
